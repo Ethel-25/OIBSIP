@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+
+
+section{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("GB1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    height: 80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+}
+nav ul{
+    float: right;
+    line-height: 80px;   
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color:rgb(235, 215, 144);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+background-color: rgba(181, 165, 112, 0.6);
+transition: 0.5s ease;
+}
+
+
+.description{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.description h1{
+    font-size:36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.description p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.description .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform :uppercase;
+    text-decoration: none;
+    background-color: burlywood;
+}
+.description .btn:hover{
+    background-color: #eb3;
+    transition: 0.5s ease;
+
+}
